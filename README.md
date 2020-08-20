@@ -11,3 +11,14 @@
 <li>Ganti nama Database pada <b>"DB_DATABASE = laravel" </b>sesuai dengan nama database yang dibuat</li>
 <li>Ketik <b>php artisan migrate</b>di terminal atau Command Prompt</li>
 <li>Ketik <b>php artisan serve </b>di terminal atau Command Prompt</li>
+
+# EndPoint
+1. Register
+
+http://127.0.0.1:8000/api/register 
+
+{
+    "name" : "User",
+    "email" : "user@gmail.com",
+    "password" : 12345678
+}
