@@ -14,7 +14,6 @@
 
 # EndPoint
 1. Register
-
 http://127.0.0.1:8000/api/register 
 
 {
@@ -22,3 +21,12 @@ http://127.0.0.1:8000/api/register
     "email" : "user@gmail.com",
     "password" : 12345678
 }
+
+2. Login
+http://127.0.0.1:8000/api/login
+
+{
+    "email" : "user@gmail.com",
+    "password" : 12345678
+}
+
